@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header></header>
+    <section class="intro">
+      <div class="intro_container">
+        <div class="block-1"></div>
+        <div class="block-2"></div>
+        <video class="frame-media" src="video/video2.mp4" autoplay loop muted>
+        </video>
+      </div>
+      </video>
+      <div class="intro-title">
+        <h1>ЧАЙ</h1>
+        <button class="down-scroll">
+          <a href="#down">перейти к коллекции</a>
+        </button>
+      </div>
+    </section>
+    <section class="store_container" id="down">
+      <div class="block-filters">
+      </div>
+      <div class="products" id="products-container">
+      </div>
+      <div class="basket">
+        <div class="wrapperBasket">
+          <h2 class="ticket">Ваш заказ</h2>
+          <div class="nahing_wrapper">
+            <div class="nathing">Корзина пуста</div>
+          </div>
+          <div class="cardItemAdded_wrapper"></div>
+          <div class="result_price"> Итого: <div class="result-sum">0</div> ₽ </div>
+          <button class="add" data-card>Оформить заказ</button>
+        </div>
+      </div>
+    </section>
+    <script src="js/introContainerAnimation.js"></script>
+    <script src="js/renderProducts.js"></script>
+    <script src="js/toggleCardStatus.js"></script>
+    <script src="js/AllsumOnbasket.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/addCardToBascket.js"></script>
+  </body>
+
+</html>
