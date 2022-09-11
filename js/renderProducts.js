@@ -10,12 +10,13 @@ async function getProducts() {
   const productsArray = await response.json()
   //теперь передаем этоту переменную с массивом в другую функцию
   renderProducts(productsArray)
+	return productsArray
 }
 
 function renderProducts(productsArray) {
   //пербираем все элементы в массиве и вставляем их в шаблон
   productsArray.forEach(function (item) {
-    const productsHTML = `<div class="products-card" data-id="${item.id}">
+    const productsHTML = `<div class="products-card" data-id="${item.id}" data-country="${item.country}">
         <img data-imgProduct src="./images/${item.imgSrc}" alt="green-tea" />
         <div class="wrapper-description">
           <h2 class="products-card-name" data-title>${item.title}</h2>

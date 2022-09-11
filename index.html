@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet" />
@@ -34,7 +34,16 @@
     </section>
     <section class="store_container" id="down">
       <div class="block-filters">
+				<label class="filter">
+					<input type="checkbox" name="Индия" value="Индия">
+					Индия
+				</label>
+				<label class="filter">
+					<input type="checkbox" name="Китай" value="Китай">
+					Китай
+				</label>
       </div>
+				
       <div class="products" id="products-container">
       </div>
       <div class="basket">
@@ -51,9 +60,9 @@
     </section>
     <script src="js/introContainerAnimation.js"></script>
     <script src="js/renderProducts.js"></script>
+		<script src="js/createFilters.js"></script>
     <script src="js/toggleCardStatus.js"></script>
     <script src="js/AllsumOnbasket.js"></script>
-		<script src="js/createFilters.js"></script>
     <script src="js/main.min.js"></script>
     <script src="js/addCardToBascket.js"></script>
   </body>
