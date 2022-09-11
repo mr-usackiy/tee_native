@@ -139,6 +139,10 @@ body {
     font-weight: bold;
     text-align: center;
   }
+  p {
+    max-height: 40px;
+    overflow: hidden;
+  }
 }
 .products-card-calc {
   padding-top: 10px;

@@ -19,7 +19,7 @@ function renderProducts(productsArray) {
         <img data-imgProduct src="./images/${item.imgSrc}" alt="green-tea" />
         <div class="wrapper-description">
           <h2 class="products-card-name" data-title>${item.title}</h2>
-          <p class="products-card-description" data-description>${item.description}
+          <p class="products-card-description" data-description>${item.description}<span class="more">...<span>
           </p>
           <div class="products-card-calc">
             <div class="row-1">
