@@ -4,62 +4,71 @@
     "imgSrc": "tea_img.jpg",
     "title": "чай торнадо",
     "description": "Очень мощный чаек, просто сносит башку нахрен Ю ноу блин",
-    "price": 500
+    "price": 500,
+		"country": "Индия"
   },
   {
     "id": 2,
     "imgSrc": "tea_img2.jpg",
     "title": "чай торнадо",
     "description": "Очень мощный чаек, просто сносит башку нахрен Ю ноу блин",
-    "price": 500
+    "price": 500,
+		"country": "Китай"
   },
   {
     "id": 3,
     "imgSrc": "tea_img3.jpg",
     "title": "чай торнадо",
     "description": "Очень мощный чаек, просто сносит башку нахрен Ю ноу блин",
-    "price": 500
+    "price": 500,
+		"country": "Индия"
   },
   {
     "id": 4,
     "imgSrc": "tea_img4.jpg",
     "title": "чай торнадо",
     "description": "Очень мощный чаек, просто сносит башку нахрен Ю ноу блин",
-    "price": 500
+    "price": 500,
+		"country": "Индия"
   },
   {
     "id": 5,
     "imgSrc": "tea_img5.jpg",
     "title": "чай торнадо",
     "description": "Очень мощный чаек, просто сносит башку нахрен Ю ноу блин",
-    "price": 500
+    "price": 500,
+		"country": "Индия"
   },
   {
     "id": 6,
     "imgSrc": "tea_img.jpg",
     "title": "чай торнадо",
     "description": "Очень мощный чаек, просто сносит башку нахрен Ю ноу блин",
-    "price": 500
+    "price": 500,
+		"country": "Индия"
   },
   {
     "id": 7,
     "imgSrc": "tea_img.jpg",
     "title": "чай торнадо",
     "description": "Очень мощный чаек, просто сносит башку нахрен Ю ноу блин",
-    "price": 500
+    "price": 500,
+		"country": "Индия"
   },
   {
     "id": 8,
     "imgSrc": "tea_img.jpg",
     "title": "чай торнадо",
     "description": "Очень мощный чаек, просто сносит башку нахрен Ю ноу блин",
-    "price": 500
+    "price": 500,
+		"country": "Индия"
   },
   {
     "id": 9,
     "imgSrc": "tea_img2.jpg",
     "title": "чай Оля",
     "description": "Очень противный чай, НО нормально  башку нахрен Ю ноу блин",
-    "price": 1500
+    "price": 1500,
+		"country": "Индия"
   }
 ]

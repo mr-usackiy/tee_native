@@ -1,4 +1,4 @@
-//div в карзине в который я добавлю карточку
+//div в корзине в который я добавлю карточку
 const cardWrapper = document.querySelector(".cardItemAdded_wrapper");
 window.addEventListener("click", function (event) {
   if (event.target.hasAttribute("data-card")) {
@@ -15,7 +15,7 @@ window.addEventListener("click", function (event) {
       counter: card.querySelector("[data-counter]").innerText,
     };
 
-    //сливаем одинаковые карточки в карзине в одну
+    //сливаем одинаковые карточки в корзине в одну
     const cardAddedId = cardWrapper.querySelector(
       `[data-id="${productInfo.id}"]`
     );
