@@ -28,7 +28,6 @@
 // }
 
 const blockFilters = document.querySelectorAll('.filter');
-console.log(blockFilters);
 blockFilters.forEach(element => {
 	element.addEventListener('click', function (event){
 		const listProducts = productsContainer.children;
