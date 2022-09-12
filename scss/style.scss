@@ -131,6 +131,7 @@ body {
 }
 
 .wrapper-description {
+  position: relative;
   margin: 10px;
   font-family: arial;
   font-size: 13px;
@@ -139,6 +140,32 @@ body {
     font-weight: bold;
     text-align: center;
   }
+}
+
+// кнопка раскрытия описания
+
+.products-card-description {
+  max-height: 39px;
+  transition: 0.7s;
+  padding-top: 0;
+}
+.hidden {
+  overflow: hidden;
+}
+.more {
+  cursor: pointer;
+  position: absolute;
+  bottom: 60px;
+  right: 10px;
+  font-size: 20px;
+}
+
+.open-desc {
+  max-height: 100%;
+  transition: 0.5s;
+}
+.img-cart {
+  transition: 0.7s;
 }
 .products-card-calc {
   padding-top: 10px;
@@ -323,6 +350,6 @@ body {
   justify-content: center;
   padding: 5px 0 5px 0;
 }
-.blocked{
-	display: none;
+.blocked {
+  display: none;
 }
