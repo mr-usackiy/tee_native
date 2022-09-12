@@ -139,10 +139,32 @@ body {
     font-weight: bold;
     text-align: center;
   }
-  p {
-    max-height: 40px;
-    overflow: hidden;
-  }
+}
+
+// кнопка раскрытия описания
+
+.products-card-description {
+  max-height: 39px;
+  position: relative;
+  transition: 0.7s;
+  padding-top: 0;
+}
+.hidden {
+  overflow: hidden;
+}
+.more {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.open-desc {
+  max-height: 100%;
+  transition: 0.5s;
+}
+.img-cart {
+  transition: 0.7s;
 }
 .products-card-calc {
   padding-top: 10px;
@@ -327,6 +349,6 @@ body {
   justify-content: center;
   padding: 5px 0 5px 0;
 }
-.blocked{
-	display: none;
+.blocked {
+  display: none;
 }
