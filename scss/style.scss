@@ -131,6 +131,7 @@ body {
 }
 
 .wrapper-description {
+  position: relative;
   margin: 10px;
   font-family: arial;
   font-size: 13px;
@@ -145,7 +146,6 @@ body {
 
 .products-card-description {
   max-height: 39px;
-  position: relative;
   transition: 0.7s;
   padding-top: 0;
 }
@@ -155,8 +155,9 @@ body {
 .more {
   cursor: pointer;
   position: absolute;
-  bottom: 0;
+  bottom: 60px;
   right: 10px;
+  font-size: 20px;
 }
 
 .open-desc {

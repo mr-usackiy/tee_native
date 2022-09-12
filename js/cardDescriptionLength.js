@@ -15,7 +15,6 @@ window.onload = function () {
         .offsetHeight
       let descClick = event.target.closest('.products-card-description')
       descClick.classList.toggle('open-desc')
-
       let descHeightAfter = event.target.closest('.products-card-description')
         .offsetHeight
 
@@ -25,9 +24,9 @@ window.onload = function () {
       let imgCart = descParentTop.querySelector('.img-cart')
       let imgCartHeight = imgCart.offsetHeight
       if (descClick.classList.contains('open-desc')) {
+        descClick.classList.add('hidden')
         imgCart.style.height = imgCartHeight - diffHeight + 'px'
       } else {
-        descClick.style.paddingTop = diffHeight + 'px'
         imgCart.style.height = 57 + '%'
       }
 
